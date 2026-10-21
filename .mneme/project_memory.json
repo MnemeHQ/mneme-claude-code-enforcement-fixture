@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "name": "",
+    "description": "",
+    "created_by": "mneme init",
+    "created": "2026-10-21T22:13:29Z"
+  },
+  "items": [],
+  "examples": [],
+  "decisions": [
+    {
+      "id": "C3-DEC",
+      "decision": "Do not use psycopg2 in the service layer",
+      "rationale": "",
+      "scope": [],
+      "constraints": [],
+      "anti_patterns": [
+        "psycopg2"
+      ],
+      "rules": [
+        {
+          "type": "FORBID_LITERAL",
+          "value": "psycopg2"
+        }
+      ],
+      "test_evidence": [],
+      "created_at": "2026-10-21T22:13:29Z",
+      "updated_at": "2026-10-21T22:13:29Z",
+      "status": "active"
+    }
+  ],
+  "decision_index": {
+    "schema": "mneme.decision-index/v2",
+    "semantic_features": [],
+    "decisions": [
+      {
+        "decision_id": "C3-DEC",
+        "decision_class": "architecture",
+        "lifecycle_status": "active",
+        "active_version_id": "dver-0b34621a5cefcd4a45787f555fb99550",
+        "test_evidence": [],
+        "relationships": [],
+        "updated_at": "2026-10-21T22:13:29Z"
+      }
+    ],
+    "versions": [
+      {
+        "version_id": "dver-0b34621a5cefcd4a45787f555fb99550",
+        "decision_id": "C3-DEC",
+        "revision": "1",
+        "content_digest": "8d8cc17724a9f983ba60306de1ae5a824a4a567496c554d1600e09d41120e23c",
+        "statement": "Do not use psycopg2 in the service layer",
+        "rationale": "",
+        "context_scope": [],
+        "constraints": [],
+        "anti_patterns": [
+          "psycopg2"
+        ],
+        "source_evidence": [
+          {
+            "source_type": "runtime",
+            "source_locator": "",
+            "source_revision": "",
+            "observed_at": "",
+            "verification_status": ""
+          }
+        ],
+        "occurrence_source_identity": [
+          "cli-add",
+          "C3-DEC"
+        ],
+        "supersedes_version_id": null,
+        "created_at": "2026-10-21T22:13:29Z"
+      }
+    ],
+    "rules": [
+      {
+        "rule_id": "C3-DEC:FORBID_LITERAL:dce58d45cafc99df7c5c1df9642234d0",
+        "decision_id": "C3-DEC",
+        "decision_version_id": "dver-0b34621a5cefcd4a45787f555fb99550",
+        "decision_version": "1",
+        "sequence": 0,
+        "rule_type": "FORBID_LITERAL",
+        "rule_payload": {
+          "value": "psycopg2"
+        },
+        "applicability": {},
+        "binding_authority": "protection"
+      }
+    ]
+  },
+  "activation": {
+    "schema": "mneme.setup/v1",
+    "state": "active",
+    "mneme_version": "0.8.0",
+    "setup_started_at": "",
+    "setup_completed_at": "",
+    "activated_at": "2026-10-21T22:13:30Z",
+    "audit_ref": "",
+    "baseline": null,
+    "integrations_detected": [],
+    "integrations_configured": [],
+    "enforcement": "not_enabled"
+  }
+}
