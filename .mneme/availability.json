@@ -1,0 +1,29 @@
+{
+  "schema": "mneme.availability/v1",
+  "availability": "closed",
+  "memory_path": ".mneme/project_memory.json",
+  "repository": {
+    "url": "https://github.com/MnemeHQ/mneme-claude-code-enforcement-fixture",
+    "branch": "main"
+  },
+  "authority": {
+    "events": [
+      {
+        "seq": 1,
+        "op": "authorize",
+        "prev": null,
+        "review": {
+          "recorded_by": "Theo Valmis",
+          "independent_approver_attested": false,
+          "baseline_protection_attested": true
+        },
+        "activation": {
+          "activated_at": "2026-10-21T22:13:30Z",
+          "protected_decisions": [
+            "C3-DEC"
+          ]
+        }
+      }
+    ]
+  }
+}
