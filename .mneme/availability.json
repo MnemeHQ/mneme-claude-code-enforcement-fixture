@@ -23,6 +23,16 @@
             "C3-DEC"
           ]
         }
+      },
+      {
+        "seq": 2,
+        "op": "revoke",
+        "prev": "sha256:92b52e17a657ff0862af87239339e372c5696bdcf49924eadd262b7782b18df1",
+        "review": {
+          "recorded_by": "Theo Valmis",
+          "independent_approver_attested": false,
+          "baseline_protection_attested": true
+        }
       }
     ]
   }
