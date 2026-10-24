@@ -33,6 +33,22 @@
           "independent_approver_attested": false,
           "baseline_protection_attested": true
         }
+      },
+      {
+        "seq": 3,
+        "op": "authorize",
+        "prev": "sha256:a713d3620eb4ca6353354ba5f9efa9117fe787075489a2495392f91ebc1b2ac7",
+        "review": {
+          "recorded_by": "Theo Valmis",
+          "independent_approver_attested": false,
+          "baseline_protection_attested": true
+        },
+        "activation": {
+          "activated_at": "2026-10-21T22:13:30Z",
+          "protected_decisions": [
+            "C3-DEC"
+          ]
+        }
       }
     ]
   }
